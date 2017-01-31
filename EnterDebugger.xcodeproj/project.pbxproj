@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FF8451E1E38F37500BB6EDB /* EnterDebugger.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6FF8451D1E38F37500BB6EDB /* EnterDebugger.hpp */; };
+		6FF845201E38F37500BB6EDB /* EnterDebugger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8451F1E38F37500BB6EDB /* EnterDebugger.cpp */; };
+		6FF8452E1E38F41300BB6EDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8452D1E38F41300BB6EDB /* main.m */; };
+		6FF845341E38F46400BB6EDB /* EnterDebuggerUserClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FF845321E38F46400BB6EDB /* EnterDebuggerUserClient.cpp */; };
+		6FF845351E38F46400BB6EDB /* EnterDebuggerUserClient.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6FF845331E38F46400BB6EDB /* EnterDebuggerUserClient.hpp */; };
+		6FF845371E38F5AF00BB6EDB /* EnterDebuggerUserClientShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF845361E38F5AF00BB6EDB /* EnterDebuggerUserClientShared.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6FF845291E38F41300BB6EDB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6FF8451A1E38F37500BB6EDB /* EnterDebugger.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnterDebugger.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF8451D1E38F37500BB6EDB /* EnterDebugger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EnterDebugger.hpp; sourceTree = "<group>"; };
+		6FF8451F1E38F37500BB6EDB /* EnterDebugger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EnterDebugger.cpp; sourceTree = "<group>"; };
+		6FF845211E38F37500BB6EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF8452B1E38F41300BB6EDB /* EnterDebuggerClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EnterDebuggerClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF8452D1E38F41300BB6EDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FF845321E38F46400BB6EDB /* EnterDebuggerUserClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EnterDebuggerUserClient.cpp; sourceTree = "<group>"; };
+		6FF845331E38F46400BB6EDB /* EnterDebuggerUserClient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EnterDebuggerUserClient.hpp; sourceTree = "<group>"; };
+		6FF845361E38F5AF00BB6EDB /* EnterDebuggerUserClientShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterDebuggerUserClientShared.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FF845161E38F37500BB6EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF845281E38F41300BB6EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FF845101E38F37500BB6EDB = {
+			isa = PBXGroup;
+			children = (
+				6FF8451C1E38F37500BB6EDB /* EnterDebugger */,
+				6FF8452C1E38F41300BB6EDB /* EnterDebuggerClient */,
+				6FF8451B1E38F37500BB6EDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FF8451B1E38F37500BB6EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FF8451A1E38F37500BB6EDB /* EnterDebugger.kext */,
+				6FF8452B1E38F41300BB6EDB /* EnterDebuggerClient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FF8451C1E38F37500BB6EDB /* EnterDebugger */ = {
+			isa = PBXGroup;
+			children = (
+				6FF8451D1E38F37500BB6EDB /* EnterDebugger.hpp */,
+				6FF8451F1E38F37500BB6EDB /* EnterDebugger.cpp */,
+				6FF845321E38F46400BB6EDB /* EnterDebuggerUserClient.cpp */,
+				6FF845331E38F46400BB6EDB /* EnterDebuggerUserClient.hpp */,
+				6FF845361E38F5AF00BB6EDB /* EnterDebuggerUserClientShared.h */,
+				6FF845211E38F37500BB6EDB /* Info.plist */,
+			);
+			path = EnterDebugger;
+			sourceTree = "<group>";
+		};
+		6FF8452C1E38F41300BB6EDB /* EnterDebuggerClient */ = {
+			isa = PBXGroup;
+			children = (
+				6FF8452D1E38F41300BB6EDB /* main.m */,
+			);
+			path = EnterDebuggerClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6FF845171E38F37500BB6EDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF845351E38F46400BB6EDB /* EnterDebuggerUserClient.hpp in Headers */,
+				6FF8451E1E38F37500BB6EDB /* EnterDebugger.hpp in Headers */,
+				6FF845371E38F5AF00BB6EDB /* EnterDebuggerUserClientShared.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6FF845191E38F37500BB6EDB /* EnterDebugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF845241E38F37500BB6EDB /* Build configuration list for PBXNativeTarget "EnterDebugger" */;
+			buildPhases = (
+				6FF845151E38F37500BB6EDB /* Sources */,
+				6FF845161E38F37500BB6EDB /* Frameworks */,
+				6FF845171E38F37500BB6EDB /* Headers */,
+				6FF845181E38F37500BB6EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnterDebugger;
+			productName = EnterDebugger;
+			productReference = 6FF8451A1E38F37500BB6EDB /* EnterDebugger.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+		6FF8452A1E38F41300BB6EDB /* EnterDebuggerClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF8452F1E38F41300BB6EDB /* Build configuration list for PBXNativeTarget "EnterDebuggerClient" */;
+			buildPhases = (
+				6FF845271E38F41300BB6EDB /* Sources */,
+				6FF845281E38F41300BB6EDB /* Frameworks */,
+				6FF845291E38F41300BB6EDB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnterDebuggerClient;
+			productName = EnterDebuggerClient;
+			productReference = 6FF8452B1E38F41300BB6EDB /* EnterDebuggerClient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FF845111E38F37500BB6EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Scott Knight";
+				TargetAttributes = {
+					6FF845191E38F37500BB6EDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6FF8452A1E38F41300BB6EDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6FF845141E38F37500BB6EDB /* Build configuration list for PBXProject "EnterDebugger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6FF845101E38F37500BB6EDB;
+			productRefGroup = 6FF8451B1E38F37500BB6EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FF845191E38F37500BB6EDB /* EnterDebugger */,
+				6FF8452A1E38F41300BB6EDB /* EnterDebuggerClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FF845181E38F37500BB6EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FF845151E38F37500BB6EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF845201E38F37500BB6EDB /* EnterDebugger.cpp in Sources */,
+				6FF845341E38F46400BB6EDB /* EnterDebuggerUserClient.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF845271E38F41300BB6EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF8452E1E38F41300BB6EDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6FF845221E38F37500BB6EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6FF845231E38F37500BB6EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6FF845251E38F37500BB6EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				INFOPLIST_FILE = EnterDebugger/Info.plist;
+				MODULE_NAME = com.scottknight.EnterDebugger;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottknight.EnterDebugger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		6FF845261E38F37500BB6EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				INFOPLIST_FILE = EnterDebugger/Info.plist;
+				MODULE_NAME = com.scottknight.EnterDebugger;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scottknight.EnterDebugger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		6FF845301E38F41300BB6EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FF845311E38F41300BB6EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FF845141E38F37500BB6EDB /* Build configuration list for PBXProject "EnterDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF845221E38F37500BB6EDB /* Debug */,
+				6FF845231E38F37500BB6EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF845241E38F37500BB6EDB /* Build configuration list for PBXNativeTarget "EnterDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF845251E38F37500BB6EDB /* Debug */,
+				6FF845261E38F37500BB6EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FF8452F1E38F41300BB6EDB /* Build configuration list for PBXNativeTarget "EnterDebuggerClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF845301E38F41300BB6EDB /* Debug */,
+				6FF845311E38F41300BB6EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FF845111E38F37500BB6EDB /* Project object */;
+}
